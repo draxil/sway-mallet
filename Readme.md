@@ -9,6 +9,14 @@ So far:
 
 Soon: other commands from i3-mallet, and then, anything else useful we can think of.
 
+# Install
+
+Builds coming soon, but if you have go:
+
+```sh
+go install github.com/draxil/sway-mallet@latest
+```
+
 # License
 
 Please see the [LICENSE](./LICENCE) file.
