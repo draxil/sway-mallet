@@ -5,7 +5,8 @@ A tool for sway. Basically like a collection of sway scripts, but in a handy go 
 
 So far:
 
-* Jump to next free workspace (`sway-mallet nextfree jump`)
+* Jump to next free workspace (`sway-mallet nextfree jump`).
+* Throw window to the next free workspace, and possibly follow it: (`sway-mallet nextfree throw`).
 
 Soon: other commands from i3-mallet, and then, anything else useful we can think of.
 

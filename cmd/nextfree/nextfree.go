@@ -12,6 +12,7 @@ func NextFreeCmd(swayc sway.Sway) *cobra.Command {
 	}
 
 	cmd.AddCommand(jumpCmd(swayc))
-	//	cmd.AddCommand(throwToCmd())
+	cmd.AddCommand(throwToCmd(swayc))
+
 	return cmd
 }
